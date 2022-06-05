@@ -1,4 +1,4 @@
-import { Comment } from '..'
+import { Avatar, Comment } from '..'
 import styles from './styles.module.css'
 
 export const Post = () => {
@@ -6,7 +6,7 @@ export const Post = () => {
     <article className={styles.post}>
       <header>
         <div className={styles.author}>
-          <img
+          <Avatar
             src='https://github.com/marceometry.png'
             alt='Marcelino Teixeira'
           />
