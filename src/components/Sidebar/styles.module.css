@@ -53,11 +53,14 @@
   padding: 0 1.5rem;
   font-weight: bold;
   text-decoration: none;
-  display: grid;
-  place-items: center;
-  transition: filter 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  transition: background-color, color, 0.2s;
 }
 
 .sidebar footer a:hover {
-  filter: brightness(0.8);
+  background-color: var(--green-500);
+  color: var(--white);
 }
