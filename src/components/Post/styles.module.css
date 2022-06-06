@@ -2,10 +2,7 @@
   border-radius: 8px;
   background-color: var(--gray-800);
   padding: 2.5rem;
-}
-
-.post + .post {
-  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .post > header {

@@ -72,17 +72,19 @@ const posts: PostModel[] = [
 
 export function App() {
   return (
-    <>
+    <div className={styles.app}>
       <Header />
 
       <div className={styles.wrapper}>
-        <Sidebar />
-        <main>
-          {posts.map((post) => (
-            <Post key={post.id} post={post} />
-          ))}
-        </main>
+        <div className={styles.content}>
+          <Sidebar />
+          <main>
+            {posts.map((post) => (
+              <Post key={post.id} post={post} />
+            ))}
+          </main>
+        </div>
       </div>
-    </>
+    </div>
   )
 }

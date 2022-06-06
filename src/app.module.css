@@ -1,4 +1,16 @@
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
 .wrapper {
+  overflow: auto;
+  flex: 1;
+}
+
+.content {
   max-width: 70rem;
   margin: 2rem auto;
   padding: 0 1rem;
